@@ -1,4 +1,4 @@
-package OrderItemWorkflow;
+package orderitemworkflow;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 
-public class OrderItem_MakePayment {
+public class OrderItemMakePayment {
 
 	private WebDriver webDriver;
 
@@ -137,7 +137,7 @@ public class OrderItem_MakePayment {
 	}
 
 	public static void main(String[] args) throws InterruptedException {
-		OrderItem_MakePayment scenario=new OrderItem_MakePayment();
+		OrderItemMakePayment scenario=new OrderItemMakePayment();
 		scenario.launchDriver();
 		scenario.goToURL("http://automationpractice.com/index.php");
 		scenario.logInAndNavigateToHomeScreen("soumit30@gmail.com", "admin@123");
